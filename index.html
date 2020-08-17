@@ -4,19 +4,42 @@
 <head>
   <meta charset="utf-8">
   <title>Weather App</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 
 <body style="background-color:#778899;">
+  <a class="navbar-brand navbar-dark bg-dark nav-item navbar-expand-lg nav-link btn-secondary" href="">Asif</a>
+  <div class="container">
+    <div class="jumbotron row">
+      <div class="col-6">
+        <form action="/" method="post">
+          <h2>Weather Website <i class="fas fa-cloud"></i></h2>
+          <hr>
+          <label for="cityInputs">
+            <h3>City Name:</h3>
 
-  <form action="/" method="post">
-    <h2>Weather App </h2>
-    <label for="cityInputs">
-      <h3>City Name:</h3>
-    </label>
-    <input id="cityInputs" type="text" name="cityName">
-    <button type="submit">Go</button>
-    <h4> by Asif</h4>
-  </form>
+          </label>
+          <input id="cityInputs" type="text" name="cityName" placeholder=".cityName">
+          <button class="btn btn-outline-info " type="submit">Go <i class="fas fa-thumbs-up"></i></button>
+          <h5>#just type-in any city name above and see its temperature.</h5>
+        </form>
+      </div>
+        <div class="col-6">
+          <img class="title" src="C:\Users\ANPL\Desktop\weatherall\images\new-history-forecast-bulk.png" alt="">
+        </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </body>
 

@@ -1,0 +1,31 @@
+h2{
+/* font-family: "Montserra-italic"; */
+font-size: 3rem;
+line-height: 1.5;
+}
+hr{
+padding-bottom: 4.5rem;
+padding-top: 0;
+}
+ h3
+ {
+  padding-left: 5.5rem;
+  padding-top: 3.5rem;
+}
+img{
+  padding-bottom: 2rem;
+  padding-top: 9.5rem;
+}
+.title{
+ width: 95%;
+}
+h5
+{
+  color: #8f8f8f;
+  padding-top: 1.5rem;
+  padding-left: 15.5rem;
+}
+.btn-outline-info
+{
+  margin-left: 0.8rem;
+}
